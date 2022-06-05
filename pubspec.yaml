@@ -1,0 +1,66 @@
+name: maps_app
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.1.1
+  location: ^4.3.0
+  google_directions_api: ^0.9.1
+  provider: ^6.0.2
+  geolocator: ^8.2.0
+  geocoding: ^2.0.2
+  permission_handler: ^9.2.0
+  http: any
+  fluttertoast: ^8.0.9
+  google_fonts: ^2.3.1
+  flutter_polyline_points: ^1.0.0
+  lottie: ^1.2.2
+  flutter_login: ^3.1.0
+  steps_indicator: ^1.3.0
+  intl: ^0.17.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - asset/icon/
+    - asset/
+  #   - images/a_dot_ham.jpeg
+
+  
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  
